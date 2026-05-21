@@ -1,0 +1,16 @@
+/* Global */
+/* ------------------------------------ */
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/btn.css";
+@import "global/container.css";
+
+/* Blocks */
+/* ------------------------------------ */
+
+@import "blocks/header.css";
+@import "blocks/breadcrumbs.css";
+@import "blocks/hero.css";
+@import "blocks/timer.css";
+@import "blocks/car-card.css";
+@import "blocks/modal.css";

@@ -1,0 +1,165 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.active {
+    display: flex;
+}
+
+.modal__content {
+    background: #ffffff;
+    border-radius: 20px;
+    max-width: 480px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.modal__close {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #999;
+    transition: color 0.2s;
+    line-height: 1;
+}
+
+.modal__close:hover {
+    color: #00CABF;
+}
+
+.modal__header {
+    padding: 32px 32px 16px;
+    border-bottom: 1px solid #eee;
+}
+
+.modal__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin: 0 0 8px 0;
+}
+
+.modal__subtitle {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.modal__body {
+    padding: 32px;
+}
+
+.modal__form-group {
+    margin-bottom: 24px;
+}
+
+.modal__label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.modal__input {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    transition: all 0.2s;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.modal__input:focus {
+    border-color: #00CABF;
+    box-shadow: 0 0 0 3px rgba(0, 202, 191, 0.1);
+}
+
+.modal__input--error {
+    border-color: #e74c3c;
+}
+
+.modal__error-text {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 6px;
+    display: none;
+}
+
+.modal__error-text.active {
+    display: block;
+}
+
+.modal__btn {
+    width: 100%;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #00CABF;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.modal__btn:hover {
+    background-color: #00b3a8;
+}
+
+.modal__footer {
+    padding: 0 32px 32px;
+    text-align: center;
+}
+
+.modal__privacy {
+    font-size: 12px;
+    color: #999;
+    margin: 0;
+}
+
+.modal__privacy a {
+    color: #00CABF;
+    text-decoration: none;
+}
+
+.modal__privacy a:hover {
+    text-decoration: underline;
+}
+
+.modal__success {
+    text-align: center;
+    padding: 20px;
+}
+
+.modal__success-icon {
+    font-size: 64px;
+    color: #00CABF;
+    margin-bottom: 16px;
+}
+
+.modal__success-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+}
+
+.modal__success-text {
+    color: #666;
+    margin-bottom: 24px;
+}

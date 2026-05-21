@@ -1,0 +1,44 @@
+    .timer {
+        margin: 0 0 78px 0;
+    }
+
+    .timer__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 113px;
+    }
+
+    .timer__button {
+        margin: 0;
+        padding: 25px;
+        background-color: #00CABF;
+        width: 467px;
+        border: none;
+        font-size: 25px;
+        color: #ffffff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .timer__button:hover {
+        background-color: #27bfbf;
+    }
+
+    .timer__text {
+        font-size: 25px;
+        margin: 0 0 10px 0;
+        color: #000000
+    }
+
+    .sinoby-timer[data-sinoby-reserve="sinoby-1uoo6d"] {
+        display: block;
+        min-height: 114px;
+
+    }
+
+    @media (max-width:767px) {
+        .sinoby-timer[data-sinoby-reserve="sinoby-1uoo6d"] {
+            min-height: 83px;
+        }
+    }

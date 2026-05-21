@@ -1,0 +1,28 @@
+.breadcrumbs {
+    background-color: black;
+}
+
+.breadcrumbs-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumbs__left-list {
+    margin: 0;
+    padding: 10px 0;
+    list-style: none;
+    display: flex;
+    gap: 13px
+}
+
+.breadcrumbs__right-list {
+    margin: 0;
+    padding: 10px 0;
+    list-style: none;
+    display: flex;
+    gap: 13px;
+    font-size: 11px;
+}
